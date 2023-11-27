@@ -1,0 +1,165 @@
+body{
+
+    margin: 0px; 
+    padding: 0px;
+    
+    
+
+}
+
+.header{
+    background-color: #303030;
+    /*margin-top: -35px;*/
+    height: 475px;
+    display: grid;
+    flex-direction: column;
+
+}
+
+.frase1{
+    margin-top: 200px;
+    color: #FFFFFF;
+    font-family: inter;
+    
+    
+    font-size: 50px;
+    margin-left: -850px;
+}
+
+.frase2{
+    font-family: inter;
+    color: #FFFFFF;
+    font-size: 30px;
+    display: grid;
+    flex-direction: column;
+    margin-left: 90px;
+    font-style: normal;
+
+}
+
+
+    
+/*segunda parte do código*/    
+section{
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.section, h1{
+    color: #000;
+
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight:600;
+line-height: 28px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 50px;
+
+}
+
+.section, h2{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 50px;
+}
+
+/* terceira parte*/
+
+
+
+
+.principal, h1{
+    color: #000;
+
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+}
+
+.principal, h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.principal{
+    margin-top:100px;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    
+}
+
+.imagem{
+    display: flex;
+    height: 8 05px;
+}
+
+.text{
+    margin-top: 200px;
+    margin-right: 80px;
+}
+
+/*formulário*/
+
+#forms{
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px;
+    padding: 5px;
+}
+
+.textArea{
+    border-radius: 10px;
+    background: #FFF;
+    width: 350px;
+    height: 25px;
+    padding: 8px;
+    margin-left: 750px;
+}
+
+
+.footer{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+#botao{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 10px;
+    background: #C07212;
+    width: 250px;
+    margin-left: 800px;
+    height: 60px;
+    margin-top: 50px;
+    border: 0px;
+}
